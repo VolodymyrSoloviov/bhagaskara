@@ -1,0 +1,20 @@
+$container-width: 1100px;
+
+//colors
+$white: #fff;
+
+//layout
+@import "layout/adjustment";
+@import "layout/fonts";
+
+//sections
+@import "sections/one";
+@import "sections/two";
+@import "sections/three";
+
+//media
+@import "media/tv";
+@import "media/desktop";
+@import "media/laptop";
+@import "media/tablets";
+@import "media/phones";
