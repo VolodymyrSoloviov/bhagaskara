@@ -348,4 +348,147 @@ h6 {
 .feature__link:hover .feature__icon_phone {
   background: url("../img/icons/phone-v.png") center center no-repeat; }
 
+.about {
+  height: 1026px; }
+
+.about__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.title_about {
+  width: 270px;
+  height: 114px;
+  margin-top: 130px; }
+
+.title {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.title__text {
+  text-align: center;
+  font-family: 'existencelight';
+  font-size: 48px; }
+
+.title__span {
+  color: #9f449b; }
+
+.title__triangle-top,
+.title__triangle-bottom {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat; }
+
+.title__triangle-top {
+  top: 0;
+  right: 0;
+  background-image: url("../img/icons/triangle-top.png"); }
+
+.title__triangle-bottom {
+  bottom: 0;
+  left: 0;
+  background-image: url("../img/icons/triangle-bottom.png"); }
+
+.about__bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  height: 415px;
+  width: 100%;
+  margin-top: 140px; }
+
+.about__gadgets {
+  position: relative;
+  width: 650px; }
+
+.about__gadgets-imac {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 490px;
+  height: 100%;
+  background: url("../img/icons/mac.png") no-repeat;
+  background-size: cover; }
+
+.about__gadgets-macpro {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 385px;
+  height: 225px;
+  background: url("../img/icons/macpro.png") no-repeat;
+  background-size: cover; }
+
+.about__gadgets-ipad {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 172px;
+  height: 220px;
+  background: url("../img/icons/ipad.png") no-repeat;
+  background-size: cover; }
+
+.about__gadgets-iphone {
+  position: absolute;
+  left: 137px;
+  bottom: 0;
+  width: 56px;
+  height: 110px;
+  background: url("../img/icons/iphone.png") no-repeat;
+  background-size: cover; }
+
+.about__description {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 460px; }
+
+.about__text {
+  line-height: 36px; }
+
+.button__first-bg,
+.button__second-bg {
+  border-radius: 5px;
+  width: 228px; }
+
+.button__first-bg {
+  height: 72px;
+  background-color: #6b2e68; }
+
+.button__second-bg {
+  display: -ms-flexbox;
+  display: flex;
+  height: 68px;
+  background-color: #9f449b; }
+
+.button__link {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  transition: .3s; }
+  .button__link:hover {
+    background-color: #6b2e68; }
+
 /*# sourceMappingURL=maps/main.min.css.map */
