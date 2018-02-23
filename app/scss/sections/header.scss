@@ -1,0 +1,131 @@
+.header {
+	height: 1100px;
+	background: url('../img/bg/header-bg.png') center center no-repeat;
+	background-size: cover;
+	color: $white;
+}
+
+.header__bg-color {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(72, 72, 72, .4);
+}
+
+.header__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	margin-top: 115px;
+}
+
+.logo__link{
+	font-family: 'existencelight';
+	text-decoration: none;
+	font-size: 90px;
+	color: $white;
+}
+
+.logo__span {
+	color: $violet;
+}
+
+.header__title {
+	font-family: 'latohairline';
+	font-size: 48px;
+	margin-top: 70px;
+}
+
+.header__text {
+	font-family: 'latohairline';
+	font-size: 24px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.header__list {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	height: 390px;
+	margin-top: 120px;
+	width: 100%;
+}
+
+.header__item_top {
+	align-self: flex-start;
+}
+
+.header__item-link {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+  width: 167px;
+	height: 181px;
+	color: $white;
+	margin: 0 auto;
+	background: url('../img/icons/border.png') center center no-repeat;
+	background-size: cover;
+	transition: .3s;
+	
+	&:hover {
+		background: url('../img/icons/bg-violet.png') center center no-repeat;
+	}
+	
+}
+
+.header__item-icon {
+	align-self: center;
+	width: 62px;
+	height: 60px;
+	margin-top: 40px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	//background-size: cover;
+}
+
+
+@each $header__item-icon in (settings, user, bubble, photo, pen, paperplane) {
+	.header__item-icon_#{$header__item-icon} {
+		background-image: url("../img/icons/#{$header__item-icon}.png");
+	}
+}
+
+.header__item-text {
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.header__btn {
+	width: 86px;
+	height: 93px;
+	background: url('../img/icons/border-s.png') center center no-repeat;
+}
+
+.header__btn-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 86px;
+	height: 93px;
+	border-radius: 40%;
+
+	&:hover {
+		.header__btn-icon {
+			transform: scale(1.2);
+		}
+	}
+}
+
+.header__btn-icon {
+	width: 30px;
+	height: 17px;
+	background: url('../img/icons/arrow-down.png') center center no-repeat;
+}
+
+
+
