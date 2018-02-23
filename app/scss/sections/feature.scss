@@ -1,0 +1,125 @@
+.feature__wrap {
+	//display: flex;
+	//flex-direction: column;
+}
+
+.feature__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 143px;
+	border-top: 1px solid #9993ab;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.logo_small {
+	margin-top: 0;
+
+	.logo__link {
+		font-size: 30px;
+		color: $gray;
+	}
+}
+
+.nav__list {
+	display: flex;
+}
+
+.nav__item {
+	margin-right: 35px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.nav__link {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: $gray;
+	transition: .3s;
+
+	&:hover {
+		color: $violet;
+	}
+}
+
+.feature__bottom {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+	height: 793px;
+	background-color: #eee;
+}
+
+.feature__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feature__item {
+	width: 260px;
+}
+
+.feature__link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: $gray;
+
+	&:hover {
+
+		.feature__img {
+			background: url('../img/icons/border-v.png');
+		}
+
+		// .feature__icon {
+		// 	background: url('../img/icons/heart-v.png');
+		// }
+	}
+}
+
+.feature__img {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 172px;
+	height: 185px;
+	background-color: red;
+	background: url('../img/icons/border-g.png') center center no-repeat;
+	background-size: cover;
+	transition: .3s;
+}
+
+.feature__icon {
+	width: 83px;
+	height: 62px;
+	background-size: cover;
+	transition: .3s;
+}
+
+.feature__title {
+	margin-top: 40px;
+	font-size: 24px;
+}
+
+.feature__text {
+	margin-top: 40px;
+	line-height: 30px;
+	text-align: center;
+}
+
+@each $feature__icon in (heart, diamond, cup, phone) {
+	.feature__icon_#{$feature__icon} {
+		background: url('../img/icons/#{$feature__icon}.png') center center no-repeat;
+	}
+		.feature__link:hover {
+
+			.feature__icon_#{$feature__icon} {
+				background: url('../img/icons/#{$feature__icon}-v.png') center center no-repeat;
+			}
+		}
+	
+}
