@@ -1,0 +1,79 @@
+.experience {
+	height: 830px;
+}
+
+.experience__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title_experience {
+	margin-top: 120px;
+	width: 300px;
+	height: 114px;
+}
+
+.experience__list {
+	display: flex;
+	justify-content: space-between;
+	width: 950px;
+	flex-wrap: wrap;
+	margin-top: 210px;
+}
+
+.experience__item {
+	flex: 0 1 425px;
+	margin-bottom: 55px;
+}
+
+.experience__item-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.experience__item-name {
+	text-transform: uppercase;
+	font-family: 'Helvetica Neue LT Std';
+	font-weight: bold;
+	font-size: 23px;
+	color: $black;
+}
+
+.experience__item-percent {
+	font-family: 'Helvetica Neue LT Std';
+	font-weight: 300;
+	font-size: 23px;
+	color: $light-gray;
+}
+
+.experience__item-bar {
+	margin-top: 20px;
+	height: 20px;
+	width: 100%;
+	background-color: #f0f0f0;
+}
+
+.experience__item-web,
+.experience__item-graphic,
+.experience__item-html,
+.experience__item-ui {
+	height: 100%;
+	background-color: #9f449b;
+}
+
+.experience__item-web {
+	width: 90%;
+}
+
+.experience__item-graphic {
+	width: 70%;
+}
+
+.experience__item-html {
+	width: 75%;
+}
+
+.experience__item-ui {
+	width: 85%;
+}
