@@ -529,6 +529,9 @@ h6 {
   line-height: 36px;
   color: #fff; }
 
+.quote__icon_service {
+  background: url("../img/icons/bubble.png") center center no-repeat; }
+
 .team {
   height: 1100px; }
 
