@@ -26,18 +26,20 @@ const replace = require('gulp-replace');
 const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'development';
 // Пути к нашим модулям JS
 var moduleJs = [
-  'app/js/first.js', 
+  'app/js/team-carousel.js', 
   'app/js/second.js', 
   'app/js/third.js', 
   'app/js/main.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
-  'app/bower/jquery/dist/jquery.min.js', 
+  'app/bower/jquery/dist/jquery.min.js',
+  'app/bower/owl.carousel/dist/owl.carousel.min.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам css
 var vendorCss = [
   'app/bower/normalize.css/normalize.css',
+  'app/bower/owl.carousel/dist/assets/owl.carousel.min.css'
   ];
 
 // Запускаем сервер. Предварительно выполнив задачи ['html', 'styles', 'images',

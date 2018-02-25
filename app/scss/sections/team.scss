@@ -1,0 +1,140 @@
+.team {
+	height: 1100px;
+}
+
+.team__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+.title_team {
+	width: 297px;
+	height: 114px;
+	margin-top: 150px;
+}
+
+.team__bottom {
+	height: 706px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 130px;
+}
+
+.team__buttons {
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	width: 135px;
+}
+
+.team__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 64px;
+	background: url('../img/icons/border-violet-s.png') center center no-repeat;
+}
+
+.team__btn-left,
+.team__btn-right {
+	height: 50px;
+	width: 50px;
+	transition: .3s;
+
+	&:hover {
+		transform: scale(1.2);
+	}
+}
+
+.team__btn-left {
+	background: url('../img/icons/arrow-left.png') center center no-repeat;
+}
+
+.team__btn-right {
+	background: url('../img/icons/arrow-right.png') center center no-repeat;
+}
+
+.team__list {
+	display: flex;
+	justify-content: space-between;
+	width: 1125px;
+}
+
+.team__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.team__pic {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #cdcdcd;
+	overflow: hidden;
+	background-position: center center;
+	background-size: cover;
+}
+
+.team__img {
+	position: absolute;
+	top: 0;
+	left: -9999px;
+	border-radius: 50%;
+
+}
+
+.team__title {
+	text-transform: uppercase;
+	margin-top: 80px;
+	font-weight: 700;
+	font-size: 24px;
+	color: #484848;
+}
+
+.team__text {
+	font-size: 18px;
+	color: $light-gray;
+	margin-top: 10px;
+}
+
+.team__socials-list {
+	display: flex;
+	margin-top: 30px;
+}
+
+.team__socials-item {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid #dadada;
+	margin-right: 30px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.team__socials-link {
+	display: block;
+	height: 100%;
+	text-align: center;
+	border-radius: 50%;
+	padding-top: 7px;
+	text-decoration: none;
+	font-family: 'titillium_weblight';
+	font-size: 23px;
+	line-height: 30px;
+	color: $black;
+	transition: .3s;
+
+	&:hover {
+		background-color: $violet;
+	}
+}
+

@@ -1,0 +1,35 @@
+.quote {
+	height: 625px;
+	background: url('../img/bg/quote.png') center center no-repeat;
+	background-size: cover;
+}
+
+.quote__wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 625px;
+}
+
+.quote__img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 167px;
+	height: 181px;
+	background: url('../img/icons/border.png') center center no-repeat;
+}
+
+.quote__icon {
+	width: 68px;
+	height: 60px;
+	background: url('../img/icons/study.png') center center no-repeat;
+}
+
+.quote__text {
+	margin-top: 60px;
+	font-size: 48px;
+	line-height: 36px;
+	color: $white;
+}
