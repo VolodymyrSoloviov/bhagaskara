@@ -742,4 +742,209 @@ h6 {
 .experience__item-ui {
   width: 85%; }
 
+.testimonials {
+  height: 960px;
+  background-color: #eee; }
+
+.testimonials__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.testimonials__top-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 160px;
+  width: 950px; }
+
+.testimonials__top-item {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  text-align: center; }
+
+.testimonials__top-number {
+  font-size: 64px;
+  color: #222; }
+
+.testimonials__top-text {
+  color: #777; }
+
+.testimonials__bottom-list {
+  display: -ms-flexbox;
+  display: flex;
+  width: 950px;
+  margin-top: 140px; }
+
+.testimonials__bottom-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.testimonials__bottom-pic {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  background-color: #aaaaaa; }
+
+.testimonials__bottom-img {
+  position: absolute;
+  top: 0;
+  left: -9999px; }
+
+.testimonials__bottom-text,
+.testimonials__bottom-author {
+  margin-top: 30px;
+  font-family: 'Helvetica Neue LT Std'; }
+
+.testimonials__bottom-text {
+  font-weight: 300;
+  text-align: center;
+  font-size: 33px;
+  color: #4b4b4b; }
+
+.testimonials__bottom-author {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #777; }
+
+.owl-dots {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-top: 55px; }
+
+.owl-dot {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  margin-right: 10px; }
+  .owl-dot:last-child {
+    margin-right: 0; }
+
+.owl-dot.active {
+  background-color: #777; }
+
+.portfolio__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.title_portfolio {
+  margin-top: 100px;
+  height: 114px;
+  width: 370px; }
+
+.portfolio__btn-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-top: 80px; }
+
+.portfolio__btn-item {
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-right: 20px;
+  transition: .3s; }
+  .portfolio__btn-item:last-child {
+    margin-right: 0; }
+  .portfolio__btn-item:hover {
+    background-color: #9f449b;
+    border-color: #9f449b; }
+
+.portfolio__btn-link {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 23px;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-size: 18px;
+  color: #222; }
+
+.portfolio__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 100%;
+  height: 916px;
+  overflow: hidden;
+  margin: 70px 0 30px; }
+
+.portfolio__list_active {
+  height: auto; }
+
+.portfolio__link {
+  display: block;
+  text-decoration: none; }
+  .portfolio__link:hover .portfolio__pic-hover {
+    opacity: 1; }
+
+.portfolio__item {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex: 0 1 360px;
+      flex: 0 1 360px;
+  margin-bottom: 30px; }
+
+.portfolio__pic {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cdcdcd; }
+
+.portfolio__pic-hover {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/icons/plus.png") center center no-repeat;
+  background-color: rgba(86, 93, 103, 0.6);
+  transition: .3s; }
+
+.portfolio__img {
+  position: absolute;
+  top: 0;
+  left: -9999px; }
+
+.portfolio__name,
+.portfolio__text {
+  font-family: 'Helvetica Neue LT Std';
+  font-size: 300px;
+  text-align: center; }
+
+.portfolio__name {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #222; }
+
+.portfolio__text {
+  font-size: 17px;
+  color: #777; }
+
 /*# sourceMappingURL=maps/main.min.css.map */
