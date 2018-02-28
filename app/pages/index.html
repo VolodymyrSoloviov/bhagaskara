@@ -23,7 +23,7 @@
         <div class="header__bg-color">
           <div class="container">
             <div class="header__wrap">
-              <div class="logo">
+              <div class="logo logo_main">
                 <a href="index.html" class="logo__link">
                   Bhagas<span class="logo__span">kara</span>.
                 </a>
@@ -61,7 +61,7 @@
                     <div class="header__item-text">Blog</div>
                   </a>
                 </li>
-                <li class="javascript:void(0)">
+                <li class="header__item">
                   <a href="javascript:void(0)" onclick="slowScroll('#contact')" class="header__item-link">
                     <div class="header__item-icon header__item-icon_paperplane"></div>
                     <div class="header__item-text">Contact</div>
@@ -85,6 +85,7 @@
                 Bhagas<span class="logo__span">kara</span>.
               </a>
             </div>
+            <a data-fancybox data-src="#menu" href="javascript:;" class="menu-adaptive">&#9776;</a>
             <nav class="nav">
               <ul class="nav__list">
                 <li class="nav__item">
@@ -582,7 +583,40 @@
       </footer>
     </div> <!-- end maincontent -->
   </div> <!-- end wrapper -->
+
   <div class="scroll-btn"></div>
+
+  <div class="menu popup" id="menu">
+    <div class="menu__top">
+      <div class="logo logo_menu">
+        <a href="javascript:void(0)" onclick="slowScroll('#home')" class="logo__menu-link">
+          Bhagas<span class="logo__span">kara</span>.
+        </a>
+      </div>
+      <a href="#" class="menu__close"></a>
+    </div>
+    <ul class="menu__list">
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#home')" class="menu__link">Home</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#about')" class="menu__link">About</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#team')" class="menu__link">Team</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#services')" class="menu__link">Services</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#portfolio')" class="menu__link">Portfolio</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#contact')" class="menu__link">Contact</a>
+      </li>
+    </ul>
+  </div> <!-- end menu-burger -->
+
   <script src="js/vendor.min.js"></script>
   <script src="js/main.min.js"></script>
 </body>

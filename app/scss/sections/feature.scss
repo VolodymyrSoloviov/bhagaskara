@@ -21,6 +21,20 @@
 	}
 }
 
+.menu-adaptive {
+	display: none;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+	opacity: .6;
+	transition: .3s;
+	outline: none;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
 .nav__list {
 	display: flex;
 }

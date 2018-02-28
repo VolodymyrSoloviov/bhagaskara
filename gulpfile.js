@@ -30,17 +30,20 @@ var moduleJs = [
   'app/js/testimonials-carousel.js', 
   'app/js/portfolio-btn.js', 
   'app/js/scroll-btn.js',
-  'app/js/smooth-scrolling.js'
+  'app/js/smooth-scrolling.js',
+  'app/js/menu.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
   'app/bower/jquery/dist/jquery.min.js',
-  'app/bower/owl.carousel/dist/owl.carousel.min.js'
+  'app/bower/owl.carousel/dist/owl.carousel.min.js',
+  'app/bower/fancybox/dist/jquery.fancybox.min.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам css
 var vendorCss = [
   'app/bower/normalize.css/normalize.css',
-  'app/bower/owl.carousel/dist/assets/owl.carousel.min.css'
+  'app/bower/owl.carousel/dist/assets/owl.carousel.min.css',
+  'app/bower/fancybox/dist/jquery.fancybox.min.css'
   ];
 
 // Запускаем сервер. Предварительно выполнив задачи ['html', 'styles', 'images',

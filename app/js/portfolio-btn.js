@@ -10,7 +10,12 @@ $(function() {
 			content.text("Watch less");
 		}	else {
 			div.removeClass('portfolio__list_active');
-			content.text("Watch more");	
-		}	
+			content.text("Watch more");
+
+			$('html, body').animate({
+				scrollTop : $('#portfolio').position().top
+				}, 1000);
+			}	
 	});
+
 });

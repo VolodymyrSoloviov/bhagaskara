@@ -1,5 +1,147 @@
-// @media screen and (max-width: 992px) {
-// 	.container {
-// 		width: 730px;
-// 	}
-// }
+@media screen and (max-width: 992px) {
+	.container {
+		width: 730px;
+	}
+	
+	.header {
+		height: auto;
+	}
+
+	.header__title {
+		text-align: center;
+	}
+
+	.header__btn {
+		margin-bottom: 20px;
+	}
+
+	.menu-adaptive {
+		display: block;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.feature__bottom {
+		height: auto;
+	}
+
+	.feature__list {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 50px 0;
+	}
+
+	.feature__item {
+		margin: 10px;
+		width: 280px;
+	}
+
+	.about {
+		height: auto;
+	}
+
+	.title_about,
+	.title_team,
+	.title_experience,
+	.title_portfolio,
+	.title_footer {
+		margin-top: 100px;
+	}
+
+	.about__bottom {
+		flex-direction: column;
+		margin-top: 100px;
+		height: auto;
+	}
+
+	.about__gadgets {
+		height: 415px;
+		width: 100%;
+	}
+	
+	.about__description {
+		display: flex;
+		align-items: center;
+		height: auto;
+		width: 100%;
+		margin:30px 0 50px;
+	}
+
+	.team {
+		height: auto;
+		margin-bottom: 50px;
+	}
+
+	.team__bottom {
+		margin-top: 50px;
+		height: auto;
+	}
+
+	.team__list {
+		margin-top: 30px;
+		width: 730px;
+	}
+
+	.experience {
+		height: auto;	
+	}
+
+	.experience__list {
+		margin: 100px 0 50px;
+		width: 730px;
+	}
+
+	.experience__item {
+		flex: 0 1 350px;
+	}
+	
+	.testimonials {
+		height: auto;
+	}
+
+	.testimonials__top-list {
+		width: 730px;
+		margin-top: 50px;
+	}
+
+	.testimonials__bottom-list {
+		width: 730px;
+		margin-bottom: 50px;
+	}
+
+	.portfolio {
+		margin-bottom: 50px;
+	}
+
+	.portfolio__item {
+		flex: 0 1 350px;
+	}
+
+	.footer__info {
+		margin-top: 100px;
+		flex-direction: column;
+	}
+
+	.form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.footer__right {
+		text-align: center;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.footer__social-list {
+		justify-content: center;
+	}
+
+	.logo_footer {
+		margin: 50px 0;
+	}
+}

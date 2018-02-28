@@ -1,5 +1,121 @@
-// @media screen and (max-width: 480px) {
-// 	.container {
-// 		width: 95%;
-// 	}
-// }
+@media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+
+	.logo__link {
+		font-size: 50px;
+	}
+
+	.header__title {
+		font-size: 28px;
+	}
+
+	.header__text {
+		font-size: 18px;
+	}
+
+	.header__list {
+		height: auto;
+	}
+
+	.header__item {
+		margin: 15px;
+	}
+
+	.header__btn {
+		background: none;
+	}
+
+	.about__bottom {
+		margin-top: 0;
+	}
+
+	.about__gadgets {
+		display: none;
+	}
+
+	.quote__text {
+		font-size: 28px;
+	}
+
+	.experience__list {
+		width: 95%;
+	}
+
+	.testimonials__top-list {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.testimonials__top-item {
+		margin: 5px;
+	}
+
+	.testimonials__top-list,
+	.testimonials__bottom-list {
+		width: 95%;
+	}
+
+	.testimonials__top-number {
+		font-size: 26px;
+	}
+
+	.testimonials__top-text {
+		font-size: 16px;
+	}
+
+	.testimonials__bottom-text,
+	.testimonials__bottom-author {
+		font-size: 18px;
+	}
+
+	.title_about,
+	.title_team,
+	.title_experience,
+	.title_portfolio,
+	.title_footer {
+		width: 100%;
+	}
+
+	.portfolio__btn-list {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.portfolio__btn-item {
+		margin: 0 0 20px;
+	}
+
+	.form__input {
+		padding: 10px 15px;
+		font-size: 18px;
+	}
+
+	.form__input::-webkit-input-placeholder {font-size: 18px;}
+	.form__input::-moz-placeholder          {font-size: 18px;}
+	.form__input:-moz-placeholder           {font-size: 18px;}
+	.form__input:-ms-input-placeholder      {font-size: 18px;}
+
+	.footer__text {
+		font-size: 18px;
+	}
+
+	.scroll-btn__active {
+		right: 10px;
+		bottom: 20px;
+	}
+	
+	.logo__menu-link {
+		font-size: 26px;
+	}
+
+	.menu__close {
+		width: 30px;
+		height: 30px;
+	}
+
+	.menu__item {
+		font-size: 22px;	
+	}
+}

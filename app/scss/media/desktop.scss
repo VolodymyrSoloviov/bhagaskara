@@ -1,5 +1,65 @@
-// @media screen and (max-width: 1200px) {
-// 	.container {
-// 		width: 950px;
-// 	}
-// }
+@media screen and (max-width: 1165px) {
+	.container {
+		width: 950px;
+	}
+
+	.header__list {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 20px;
+	}
+
+	.feature__item {
+		padding: 0 10px;;
+	}
+
+	.team__list {
+		width: 950px;
+	}
+
+	.quote__text {
+		text-align: center;
+		line-height: inherit;
+	}
+
+	.portfolio__item {
+		flex: 0 1 300px;
+	}
+
+	.form,
+	.footer__right {
+		width: 470px;
+	}
+
+	.form__input {
+		padding: 14px 30px;
+	}
+
+	.footer__address,
+	.footer__telephones {
+		font-size: 22px;
+	}
+
+	.footer__address {
+		margin-top: 40px;
+	}
+
+	.footer__telephones {
+		margin-top: 30px;
+	}
+
+	.footer__socials-item {
+		width: 50px;
+		height: 50px;
+	}
+
+	.footer__socials-link {
+		font-size: 23px;
+		line-height: 30px;
+		padding-top: 7px;
+	}
+
+	.footer__social-list {
+		margin-top: 40px;
+	}
+}

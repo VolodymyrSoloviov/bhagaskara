@@ -1,5 +1,113 @@
-// @media screen and (max-width: 768px) {
-// 	.container {
-// 		width: 460px;
-// 	}
-// }
+@media screen and (max-width: 768px) {
+	.container {
+		width: 460px;
+	}
+	
+	.logo_main {
+		margin-top: 50px;
+	}
+
+	.logo__link {
+		font-size: 70px;
+	}
+
+	.header__title {
+		font-size: 38px;
+	}
+
+	.header__text {
+		font-size: 22px;
+		margin-top: 20px;
+	}
+
+	.header__list {
+		margin-top: 50px;
+		height: 250px;	
+	}
+
+	.header__item-link {
+		background: none;
+		width: auto;
+		height: auto;
+
+		&:hover {
+			color: $violet;
+			background: none;
+		}
+	}
+
+	.feature__item {
+		margin: 0 0 20px;
+	}
+
+	.title_about,
+	.title_team,
+	.title_experience,
+	.title_portfolio,
+	.title_footer {
+		margin-top: 50px;
+	}
+
+	.about__gadgets {
+		height: 370px;
+	}
+	
+	.about__gadgets-imac {
+		width: 100%;
+	}
+
+	.about__text {
+		text-align: center;
+		margin-bottom: 20px;	
+	}
+
+	.team__buttons {
+		display: none;
+	}
+
+	.team__list {
+		width: 460px;	
+	}
+
+	.team__pic {
+		width: 200px;	
+		height: 200px;	
+	}
+
+	.experience__list {
+		width: 460px;	
+		justify-content: center;
+	}
+
+	.testimonials__top-list,
+	.testimonials__bottom-list {
+		width: 460px;
+	}
+
+	.testimonials__top-number {
+		font-size: 30px;
+	}
+
+	.testimonials__bottom-list {
+		margin: 50px 0;
+	}
+
+	.testimonials__bottom-text {
+		font-size: 24px;
+	}
+
+	.portfolio__item {
+		flex: 1 1 350px;
+	}
+
+	.scroll-btn {
+		width: 40px;
+		height: 40px;
+		right: 30px;
+	}
+
+	.scroll-btn__active {
+		right: 30px;
+		bottom: 30px
+	}
+}

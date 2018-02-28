@@ -3,7 +3,9 @@ function slowScroll (id) {
 
 	$('html, body').animate ({
 		scrollTop: $(id).offset ().top - offset
-	}, 500);
+	}, 1000);
 		return false;
 };
+
+
 
